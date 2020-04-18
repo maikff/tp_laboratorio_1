@@ -13,6 +13,7 @@ void getOption(void)
     int initialFlag1=0,initialFlag2=0,finalFlag=0;
     do
     {
+        system("color B");
         initialMenu(&num1,&num2,&initialFlag1,&initialFlag2);
         option=getValidOption("Ingrese La opcion deseada: ","ERROR Ingrese la opcion deseada: ",1,5);
 
