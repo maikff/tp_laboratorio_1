@@ -124,7 +124,6 @@ int getValidNumber(char message[])
         printf("Ingrese solo numeros: ");
         fflush(stdin);
         scanf("%s",stringNumber);
-        system("cls");
     }
     numFin=atoi(stringNumber);
     return numFin;

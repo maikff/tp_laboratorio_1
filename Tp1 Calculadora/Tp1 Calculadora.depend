@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1587152162 source:c:\users\owsla\desktop\1a-1g utn 2020\tp1 calculadora\main.c
+1587178528 source:c:\users\owsla\desktop\1a-1g utn 2020\tp1 calculadora\main.c
 	"BiblioCalc.h"
 
-1587176269 source:c:\users\owsla\desktop\1a-1g utn 2020\tp1 calculadora\bibliocalc.c
+1587178137 source:c:\users\owsla\desktop\1a-1g utn 2020\tp1 calculadora\bibliocalc.c
 	"BiblioCalc.h"
 
-1587175267 c:\users\owsla\desktop\1a-1g utn 2020\tp1 calculadora\bibliocalc.h
+1587178440 c:\users\owsla\desktop\1a-1g utn 2020\tp1 calculadora\bibliocalc.h
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>

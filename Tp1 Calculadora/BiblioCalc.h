@@ -63,7 +63,7 @@ int subtractFuntion(int number1,int number2);
  *
  * \param number1 int primer numero a multiplicar
  * \param number2 int segundo numero a multiplicar
- * \return int retorna el resultado de la multilpicacion
+ * \return long long int retorna el resultado de la multilpicacion
  *
  */
 long long int multiplyFunction(int number1,int number2);
@@ -77,14 +77,23 @@ long long int multiplyFunction(int number1,int number2);
  */
 float divideFunction(int number1,int number2);
 
-/** \brief calcula el factorial del parametro;
+/** \brief calcula el factorial del numero
  *
- * \param num int numero a factorear;
- * \return unsigned long long retorna el resultado de factorial;
+ * \param num int numero a fatorear
+ * \return long double retorna el resultado del factorial
  *
  */
 long double factorialFunction(int num);
 
+/** \brief muestra la primera parte del menu
+ *
+ * \param int*pNum1 primer numero ingresado
+ * \param int*pNum2 segundo numero ingresado
+ * \param int*pInitialFlag1 bandera de primer numero ingresado
+ * \param int*pInitialFlag2 bandera de segundo numero ingresado
+ * \return void
+ *
+ */
 void initialMenu(int*pNum1,int*pNum2,int*pInitialFlag1,int*pInitialFlag2);
 
 void reset(int*pInitialFlag1,int*pInitialFlag2,int*pFinalFlag);
