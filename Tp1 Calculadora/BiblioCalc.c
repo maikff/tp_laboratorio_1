@@ -139,7 +139,7 @@ int getValidNumber(char message[])
     while(validNumber(stringNumber)!=0)
     {
         system("color C");
-        printf("  ºIngrese solo numeros: ");
+        printf("  ºERROR ingrese solo numeros: ");
         fflush(stdin);
         scanf("%s",stringNumber);
     }
