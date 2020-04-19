@@ -96,6 +96,31 @@ long double factorialFunction(int num);
  */
 void initialMenu(int*pNum1,int*pNum2,int*pInitialFlag1,int*pInitialFlag2);
 
+/** \brief reinicia los flags
+ *
+ * \param int*pInitialFlag1 bandera primer numero
+ * \param int*pInitialFlag2 bandera segundo numero
+ * \param int*pFinalFlag bandera de ultima opcion
+ * \return void
+ *
+ */
 void reset(int*pInitialFlag1,int*pInitialFlag2,int*pFinalFlag);
+
+/** \brief funcion de imprimir simbolos para uso de encuadre
+ *
+ * \param type int tipo de linea
+ * \return void
+ *
+ */
+void frame(int type);
+
+/** \brief animacion de carga
+ *
+ * \param time int tiempo de carga
+ * \param cant int tamaño de la animacion
+ * \return void
+ *
+ */
+void loading(int time,int cant);
 
 #endif // BIBLIOCALC_H_INCLUDED
