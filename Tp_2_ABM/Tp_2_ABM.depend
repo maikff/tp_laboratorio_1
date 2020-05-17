@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1541813544 source:c:\users\owsla\desktop\1a-1g utn 2020\mistps\tp_2_abm\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"utn.h"
+
+1541813544 c:\users\owsla\desktop\1a-1g utn 2020\mistps\tp_2_abm\utn.h
+
+1589683107 source:c:\users\owsla\desktop\1a-1g utn 2020\mistps\tp_2_abm\menu.c
+	"menu.h"
+	<stdio.h>
+
+1589677070 c:\users\owsla\desktop\1a-1g utn 2020\mistps\tp_2_abm\menu.h
+
+1589684090 source:c:\users\owsla\desktop\1a-1g utn 2020\mistps\tp_2_abm\main.c
+	"ArraysEmployees.h"
+	"menu.h"
+
+1589684221 c:\users\owsla\desktop\1a-1g utn 2020\mistps\tp_2_abm\arraysemployees.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"utn.h"
+
+1589684149 source:c:\users\owsla\desktop\1a-1g utn 2020\mistps\tp_2_abm\arraysemployees.c
+	"ArraysEmployees.h"
+
